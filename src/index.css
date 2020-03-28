@@ -1,0 +1,40 @@
+body, html, #root {
+  height: 100%;
+}
+
+body, button {
+  margin: 0;
+  font-family: "Consolas";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  background-color: rgb(195,195,195);
+}
+
+button {
+  font-size: 24px;
+  padding: 12px;
+  margin: 12px;
+  background-color: white;
+}
+
+.hiddenButton {
+  color: transparent;
+  border: none;
+  position: absolute;
+  margin: 0;
+  background-color: transparent;
+}
+
+.devButton {
+  color: red;
+  border: 3px solid red;
+  position: absolute;
+  margin: 0;
+  background-color: transparent;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,1 @@
+"# space-opera"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/Macflash/space-opera.gitgit push -u origin master                
